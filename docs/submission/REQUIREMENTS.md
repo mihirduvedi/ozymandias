@@ -50,18 +50,18 @@ certification, physical-device coverage, or an originality guarantee.
 The [project story](DEVPOST.md) is ready to copy into the Devpost description.
 The repository README, credits, license, design notes, controls, and verification
 notes are included. The images folder contains real screenshots of the app.
-A walkthrough is provided in [DEMO.md](DEMO.md).
+A walkthrough and a 70-second video are provided in [DEMO.md](DEMO.md). The
+prepared thumbnail is 1200 × 800 pixels and fits Devpost's 3:2 recommendation.
 
 Devpost's [submission guide](https://help.devpost.com/article/126-know-your-submission-steps)
 lists a project name, tagline, story, technology tags, media, and links. Its
 recommended gallery thumbnail is 3:2 and no larger than 5 MB. Individual
 hackathons can add required fields, including a video or repository link.
 
-The authenticated event-specific form could not yet be inspected because
-Devpost was signed out in the accessible browser. A hosted video and any custom
-questions therefore remain unverified. The public rules do not specify a video
-length. Do not treat the walkthrough file as proof that a required video has
-been uploaded.
+The signed-in event form still needs a final field check. A hosted video and
+any custom questions remain unverified. The public rules do not specify a video
+length. The prepared MP4 and walkthrough do not establish that a required video
+has been uploaded or accepted by Devpost.
 
 ## Before submitting
 

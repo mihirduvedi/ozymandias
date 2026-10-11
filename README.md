@@ -9,7 +9,9 @@ broken legs rise above a half-buried pedestal, a fallen face still wears its
 sneer, and the inscription looks out over an empty desert. You can follow a guided
 reading through the ruin or find your own way around it.
 
-![The ruined colossus and the open desert](docs/submission/images/desktop-final.png)
+![The ruined colossus and the open desert](docs/submission/images/thumbnail.png)
+
+[Watch the tour highlights](docs/submission/tour-highlights.mp4)
 
 ## Read it your way
 
@@ -116,7 +118,7 @@ physical-device or screen-reader testing.
 
 This is the Ozymandias entry for Hyperbloom October: UI/UX and Web Design.
 The [submission folder](docs/submission) contains the project story, reviewed
-requirements, screenshots, and a demo walkthrough. [Design notes](docs/DESIGN.md)
+requirements, screenshots, a short video, and a demo walkthrough. [Design notes](docs/DESIGN.md)
 explain the visual choices, and [interface copy](docs/UI_COPY.md) records the
 humanized text used in the app.
 

@@ -4,6 +4,18 @@ Use the public demo at https://mihirduvedi.github.io/ozymandias/.
 A desktop browser gives the sculpture and surrounding sands more room. Keep
 sound off unless the recording can capture it clearly.
 
+## Prepared video
+
+[Tour highlights](tour-highlights.mp4) is a 70-second silent screen recording of
+the public app at 1280 × 720 and 30 frames per second. It follows the arrival,
+fallen face, inscription, and final panorama. Two short fades join selected
+passages of the real tour. It is an edited introduction, rather than a recording
+of every line. The full guided reading is available in the live app.
+
+The file is ready to upload if the submission form asks for a video. If Devpost
+requires a YouTube or Vimeo URL, this MP4 must be uploaded to one of those hosts
+first. A repository file link does not establish that an embed was accepted.
+
 ## Suggested walkthrough
 
 1. Open the world at its entrance and choose Enter the poem.

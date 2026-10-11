@@ -60,5 +60,5 @@ world needs WebGL; the text-only reader is available when 3D cannot be opened.
 The existing Vite large-chunk advisory is expected for the lazily loaded 3D
 world. No performance score or universal device support is claimed.
 
-The publication results are recorded in the submission folder after the public
-repository, workflow, and hosted demo have been checked.
+The [publication check](submission/PUBLICATION.md) records the public repository,
+workflow, fresh-clone build, and hosted browser results.
