@@ -1,0 +1,26 @@
+/* Yeats inherits the reading/navigation grammar, with its own late-century voice. */
+.world-second-coming{--world-rule:#d9ced078;--world-panel:#27262ef2;--world-ivory:#f0e8db;--world-ink:#252329}
+.app.is-second-coming .header>nav,.app.is-second-coming .header-plain{font:400 12px/1.3 var(--font-literary);letter-spacing:.035em}
+.app.is-second-coming .wordmark{font:400 20px/1 var(--font-literary);letter-spacing:.01em}
+.world-second-coming:not(.world-entered) .world-heading{top:14%}
+.world-second-coming .world-heading h1{font:400 clamp(50px,5.8vw,78px)/1.03 var(--font-literary);letter-spacing:.015em;max-width:440px}
+.world-second-coming.world-entered .world-heading h1{font-size:39px;max-width:300px}
+.world-second-coming .world-origin{color:#e3d5ce}
+.world-second-coming .world-tools,.world-second-coming .world-weather,.world-second-coming .world-weather select,.world-second-coming .world-footnote,.world-second-coming .world-tour-entry,.world-second-coming .guided-reading-meta,.world-second-coming .guided-reading-controls button,.world-second-coming .world-bottom button,.world-second-coming .world-panel-label,.world-second-coming .world-popover nav button{font-family:var(--font-literary);letter-spacing:.035em}
+.world-second-coming .world-control-value{font:400 23px/1.2 var(--font-literary)}
+.world-second-coming .world-invitation button{font-family:var(--font-literary);letter-spacing:.04em}
+.world-second-coming .world-tools .world-read,.world-second-coming .world-invitation button{background:#eee6dc;color:#252329;border-color:#eee6dc}
+.world-second-coming .world-invitation .world-explore-entry{background:none;color:#f0e8db}
+.world-second-coming .world-reading{background:#e9e3dd;color:#29262b;border-color:#a49a9c}
+.world-second-coming .world-reading h2,.world-second-coming .world-help h2{font-family:var(--font-literary);letter-spacing:.015em}
+.world-verse>span[data-stanza-start=true]{margin-top:1.85em}
+.app.is-second-coming .world-plain .plain-heading h1{font-family:var(--font-literary)}
+.app.is-second-coming .about-dialog{background:#27262e;border-color:#d9ced078}
+.app.is-second-coming .collection-dropdown{background:#27262ef2;border-color:#d9ced078}
+@media(max-width:700px){.world-second-coming.world-entered .world-heading h1{font-size:27px;max-width:49vw}.world-second-coming .world-heading h1{font-size:52px;max-width:70vw}.app.is-second-coming .wordmark{font-size:20px}.world-second-coming .world-control-value{font-size:15px}}
+@media(max-height:620px){.world-second-coming:not(.world-entered) .world-heading{top:76px}}
+@media(max-height:620px) and (min-width:701px){.poem-world:not(.world-entered) .world-heading h1{font-size:40px}.world-second-coming.world-entered .world-heading h1{font-size:27px}.poem-world:not(.world-entered) .world-invitation>span{display:none}}
+@media(max-height:420px){.poem-world:not(.world-entered) .world-heading h1{font-size:36px;margin:8px 0}.poem-world:not(.world-entered) .world-invitation p,.poem-world:not(.world-entered) .world-invitation>span{display:none}}
+/* A shaded foreground keeps the entrance legible against moving cloud banks. */
+.world-second-coming:not(.world-entered) .world-vignette{background:linear-gradient(90deg,#17282d99,transparent 66%),linear-gradient(0deg,#1b202b75,transparent 25%,transparent 85%,#19232c50)}
+.world-second-coming .world-invitation p,.world-second-coming .world-invitation>span,.world-second-coming .world-origin{text-shadow:0 1px 5px #18242c}

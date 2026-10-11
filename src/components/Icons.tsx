@@ -1,0 +1,3 @@
+export function Arrow({back=false}:{back?:boolean}) {return <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className={`arrow ${back?'back':''}`}><path d="M4 12h15M13 5l7 7-7 7" stroke="currentColor" strokeWidth="1.3"/></svg>}
+export function Book(){return <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 5q5-1 9 2 4-3 9-2v14q-5-1-9 2-4-3-9-2zM12 7v14" stroke="currentColor" strokeWidth="1.2"/></svg>}
+export function Mark(){return <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M2 21q9-13 17-5t12-2M2 27q13-13 29-5" stroke="currentColor" strokeWidth="1.4"/><circle cx="24" cy="7" r="4" stroke="currentColor"/></svg>}

@@ -1,0 +1,28 @@
+/* A single scene; the original verse, as the original verse. */
+.cinema-reader{position:relative;isolation:isolate;color:#f7f2e7;background:#181715;--verse-size:40px}
+.desert-stage{position:fixed;inset:0;z-index:-1;pointer-events:none;background:#25211c}
+.desert-stage canvas,.stage-backup{position:absolute;inset:0;width:100%;height:100%;display:block}
+.stage-backup{object-fit:cover;filter:brightness(.45)}
+.desert-stage:not(.stage-fallback) .stage-backup{visibility:hidden}
+.stage-fallback canvas{display:none}
+.poem-prologue{height:100svh;min-height:450px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:90px 24px 65px;gap:30px;text-align:center}
+.prologue-author{font-size:13px;color:#d6cdbc}
+.prologue-author i{font-style:normal;padding:0 12px}
+.poem-prologue h1{font:400 clamp(64px,10vw,150px)/1 'Barlow Condensed',sans-serif;letter-spacing:-.025em;margin:0;max-width:100%}
+.cinema-night .poem-prologue h1{font-size:clamp(56px,8vw,120px)}
+.prologue-actions{display:flex;align-items:center;gap:38px;margin-top:26px;font-size:13px}
+.prologue-actions button{border:0;background:none;color:inherit;padding:14px 0;border-bottom:1px solid #e0d7c180;min-height:44px;font:inherit}
+.prologue-actions button span{margin-left:32px}
+.prologue-actions a{color:#d6cdbc;min-height:44px;display:flex;align-items:center}
+.poem-rail{padding:calc(50svh - 9svh) 0 calc(50svh - 9svh)}
+.poem-line{height:18svh;min-height:95px;display:flex;align-items:center;justify-content:center;position:relative}
+.poem-line.stanza-start{margin-top:9svh}
+.poem-verse{font:400 var(--verse-size)/1.1 'Barlow Condensed',sans-serif;letter-spacing:0;white-space:pre;width:max-content;margin:0;text-align:center;transform:translateX(var(--travel,0px)) scale(var(--lens)) rotateX(var(--bend,0deg));transform-origin:center;opacity:var(--ink);text-shadow:0 2px 15px #0008;will-change:transform;--fade-top:0px;--fade-bottom:0px;mask-image:linear-gradient(to bottom,transparent calc(var(--fade-top) - 18px),#000 var(--fade-top),#000 calc(100% - var(--fade-bottom)),transparent calc(100% - var(--fade-bottom) + 18px))}
+.cinema-still .poem-verse{transform:none;opacity:var(--ink)}
+.cinema-reader .poem-end{min-height:85svh;background:linear-gradient(transparent,#121514dc);padding:150px 8vw 120px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px}
+.end-title{font:400 44px/1.1 'Barlow Condensed',sans-serif}
+.cinema-reader .next-poem{width:min(760px,100%);margin-top:25px}
+@media(max-width:600px){.poem-prologue{gap:22px}.prologue-author{font-size:12px}.poem-prologue h1{font-size:19vw}.cinema-night .poem-prologue h1{font-size:17vw;max-width:90%}.prologue-actions{gap:25px;font-size:12px}.poem-line{height:17svh;min-height:82px}.poem-rail{padding:calc(50svh - 8.5svh) 0}.cinema-reader .poem-end{padding:110px 24px}.end-title{font-size:35px}}
+@media(max-height:500px){.poem-prologue{min-height:100svh;gap:16px}.prologue-actions{margin-top:0}.poem-line{height:22svh;min-height:65px}.poem-rail{padding:39svh 0}.poem-prologue h1{font-size:15vh!important}}
+
+.matter-stage{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}.poem-prologue,.poem-rail,.poem-end{position:relative;z-index:2}.poem-verse{line-height:1.35}.poem-verse{padding:.65em 0}.verse-glyph{display:inline-block;white-space:pre;transform-origin:50% 70%;will-change:transform}.cinema-still .verse-glyph{transform:none!important}.material-inscription .verse-glyph{text-shadow:0 1px #ad9673,0 3px #3b3024,0 5px 12px #0009}.cinema-still .poem-verse{transform:none}

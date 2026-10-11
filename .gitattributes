@@ -1,0 +1,9 @@
+* text=auto
+*.stl binary
+*.glb binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp3 binary
+*.mp4 binary

@@ -1,0 +1,90 @@
+/* A quiet field guide: ivory lettering, bronze rules, generous open landscape. */
+.poem-world{--world-ivory:#fff1d5;--world-ink:#32291e;--world-rule:#e4c89873;--world-panel:#30281ff7}
+.app.is-world .header{padding-inline:5vw;color:#fff1d5}
+.app.is-world .header>nav{font-family:var(--font-literary);font-size:11px;letter-spacing:.035em}
+.app.is-world .header-plain{font-family:var(--font-literary);font-size:11px;width:auto;padding:0 8px;letter-spacing:.04em}
+.app.is-world .collection-menu summary>span{display:none}
+.app.is-world .collection-dropdown{background:#30281ff7;border-color:#e4c89873;color:#fff1d5}
+.app.is-world .collection-dropdown small{font-family:var(--font-literary);letter-spacing:0}
+.app.is-world .motion-indicator{width:12px;height:12px;border:1px solid #e4c898;border-radius:50%;background:none;display:grid;place-items:center}
+.app.is-world .motion-indicator i{position:static;width:4px;height:4px;border-radius:50%;background:#fff1d5;transform:none;opacity:0}
+.app.is-world .motion-indicator.on i{opacity:1;transform:none}
+.world-tools{gap:18px;font:400 11px/1.2 var(--font-literary);letter-spacing:.035em}
+.world-tools button{background:transparent;backdrop-filter:none;border:0;padding:0 5px;color:var(--world-ivory);text-shadow:0 1px 4px #32291e}
+.world-mode{gap:10px;border-bottom:1px solid var(--world-rule)}
+.world-mode button{position:relative;background:none;padding:0 4px}
+.world-mode button[aria-pressed=true]{background:none;color:var(--world-ivory)}
+.world-mode button[aria-pressed=true]::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--world-ivory)}
+.world-mode button[aria-pressed=false]{color:#f4e6c9b8}
+.world-tools .world-read{background:#f4e7c9;color:var(--world-ink);border:1px solid #fbeccb;padding:0 18px;text-shadow:none}
+.world-tools .world-read:hover,.world-invitation button:hover{background:#fff1d5;color:#2f261b}
+.world-help-button[aria-expanded=true]{text-decoration:underline;text-underline-offset:7px}
+.world-invitation button{min-height:54px;padding:0 26px;background:#f4e7c9;color:var(--world-ink);border:1px solid #fbeccb;backdrop-filter:none;font:400 13px/1.2 var(--font-literary);letter-spacing:.045em}
+.world-weather{top:172px}
+.world-weather label{gap:9px;color:var(--world-ivory)}
+.world-weather select{background:#30281fcc;color:var(--world-ivory);border:0;border-bottom:1px solid var(--world-rule);padding:0 8px;min-height:44px;font-size:12px}
+.world-bottom{bottom:max(55px,calc(env(safe-area-inset-bottom) + 40px));display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:18px}
+.world-bottom>button,.world-bottom .world-view-trigger{display:flex;align-items:center;gap:14px;min-height:64px;background:#30281fce;border:1px solid var(--world-rule);padding:11px 18px;text-align:left;font:400 11px/1.4 var(--font-literary);letter-spacing:.035em;color:var(--world-ivory)}
+.world-bottom>button>svg,.world-bottom .world-view-trigger>svg{width:30px;height:30px;fill:none;stroke:#e4c898;stroke-width:1;flex-shrink:0}
+.world-bottom>button:hover,.world-bottom>button[aria-expanded=true],.world-bottom .world-view-trigger:hover,.world-bottom .world-view-trigger[aria-expanded=true]{background:#30281ff2;border-color:#fff1d5}
+.world-bottom-right{display:flex;align-items:center;gap:22px}
+.world-bottom .world-help-button{min-height:44px;padding:0 3px;background:none;border:0;border-bottom:1px solid var(--world-rule);font:400 11px/1.5 var(--font-literary);color:var(--world-ivory);text-shadow:0 1px 3px #32291e}
+.world-control-label{display:block;font-size:10px;letter-spacing:.06em;color:#e4c898}
+.world-control-value{display:block;margin-top:4px;font-size:13px}
+.world-bottom .world-view-trigger{min-height:52px}
+.world-popover{position:fixed;inset:auto;margin:0;bottom:max(132px,calc(env(safe-area-inset-bottom) + 117px));background:var(--world-panel);color:var(--world-ivory);border:1px solid var(--world-rule);padding:22px;max-height:calc(100svh - 235px);overflow:auto;box-shadow:0 8px 28px #30281f30;width:270px}
+.world-popover::backdrop{background:transparent}
+.world-places{left:5vw}
+.world-panel-label{display:block;font:400 11px/1.5 var(--font-literary);letter-spacing:.06em;color:#e4c898;margin-bottom:16px}
+.world-places nav{display:grid}
+.world-places button{position:relative;display:block;text-align:left;background:none;border:0;border-top:1px solid #e4c89830;padding:13px 16px 13px 0;min-height:64px;color:var(--world-ivory)}
+.world-places button>span{display:block;font:400 13px/1.5 var(--font-literary)}
+.world-places button>small{display:block;font:400 12px/1.4 var(--font-literary);color:#dac8aa;margin-top:3px}
+.world-places button[aria-current]::after{content:'';position:absolute;right:2px;top:24px;width:5px;height:5px;border:1px solid #e4c898;transform:rotate(45deg)}
+.world-places button:hover{color:#e4c898}
+.world-view-panel{right:4vw;bottom:max(120px,calc(env(safe-area-inset-bottom) + 105px));width:260px}
+.view-directions{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,52px);align-items:center;justify-items:stretch;margin-bottom:14px}
+.view-directions button:nth-child(1){grid-area:1/2}.view-directions button:nth-child(2){grid-area:2/1}.view-directions svg{grid-area:2/2;width:30px;height:30px;justify-self:center;fill:none;stroke:#e4c898;stroke-width:1}.view-directions button:nth-child(4){grid-area:2/3}.view-directions button:nth-child(5){grid-area:3/2}
+.world-view-panel button{min-height:44px;background:none;border:1px solid #e4c89840;font:400 12px/1.3 var(--font-literary);padding:8px;color:var(--world-ivory)}
+.world-view-panel kbd{display:block;margin-top:3px;font:400 10px/1.2 var(--font-literary);color:#dac8aa}.world-view-panel button:hover{background:#e4c89818;border-color:#e4c898}
+.view-step{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.world-view-panel>p{font:400 11px/1.5 var(--font-literary);color:#dac8aa;margin:16px 0 0}
+.world-inspect{bottom:155px;background:#30281ff0;border:1px solid var(--world-rule);font:400 11px/1.4 var(--font-literary);letter-spacing:.03em;padding:0 18px}
+.world-help{background:var(--world-panel);border-color:var(--world-rule);box-shadow:0 8px 28px #30281f30;top:auto;bottom:132px;width:400px;max-height:calc(100svh - 225px)}
+.world-keys{margin:19px 0;font:400 12px/1.5 var(--font-literary)}
+.world-keys>div{display:grid;grid-template-columns:1fr 1fr;gap:15px;border-top:1px solid #e4c89830;padding:9px 0}
+.world-keys dt{color:#fff1d5}.world-keys dd{margin:0;color:#dac8aa}
+.world-selected-verse i{font:inherit}
+.world-reading .world-verse>span[data-selected=true]>button{background:#d7c39a8c;box-shadow:none}
+.world-reading .world-verse>span>button:focus-visible{outline:0;background:#ceb887b0;box-shadow:inset 0 -2px #6a5135}
+.world-markers{position:absolute;inset:0;pointer-events:none;z-index:3}
+.world-marker{transition:none;will-change:transform;position:absolute;transform:translate(-50%,-50%);width:44px;height:44px;padding:10px;background:transparent;border:0;pointer-events:auto;color:#fff1d5}
+.world-marker::before{content:'';position:absolute;inset:8px;border:1px solid #fff1d5b8;border-radius:50%;background:#30281fbb;box-shadow:0 1px 6px #30281f25}
+.world-marker>svg{position:relative;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.25}
+.world-marker:hover::before{background:#f4e7c9}.world-marker:hover{color:#32291e}
+.world-boundary{background:var(--world-panel);border-color:var(--world-rule)}
+.app.is-world .about-dialog{background:#30281f;border-color:#e4c89873}
+.app.is-world .about-dialog p{color:#e6d8c1}
+.world-reading{background:#f0e6d3;border-color:#b59b6f;box-shadow:0 18px 60px #30281f40}
+.world-reading::backdrop{background:#30281f88;backdrop-filter:blur(4px)}
+@media(max-width:1000px){.world-tools{gap:13px}.world-tools .world-read{padding:0 14px}}
+@media(max-width:700px){
+ .app.is-world .header{padding-inline:6vw;gap:10px}.app.is-world .header>nav{font-size:10px}.app.is-world .header>nav .collection-menu summary{gap:0}
+ .world-tools{bottom:148px;left:6vw;right:6vw;gap:9px;font-size:10px}.world-tools button{padding:0 3px}.world-tools .world-read{padding:0 12px}.world-mode{gap:7px}
+ .world-weather{top:91px}.world-weather select{font-size:11px;padding-inline:5px;max-width:125px}
+ .world-bottom{bottom:max(54px,calc(env(safe-area-inset-bottom) + 38px));left:6vw;right:6vw;gap:10px}
+ .world-bottom>button{min-height:60px;padding:9px 12px;gap:9px}.world-bottom>button>svg,.world-bottom .world-view-trigger>svg{width:23px;height:23px}.world-control-label{font-size:9px}.world-control-value{font-size:11px}.world-bottom .world-view-trigger{font-size:10px;min-height:50px;padding:8px 11px;gap:7px}.world-bottom-right{gap:10px}.world-bottom .world-help-button{font-size:10px}
+ .world-popover{bottom:max(126px,calc(env(safe-area-inset-bottom) + 110px));max-height:calc(100svh - 215px);max-width:88vw;width:270px;padding:20px}.world-places{left:6vw}.world-view-panel{right:6vw;width:250px}
+ .world-invitation{bottom:234px}.world-invitation button{font-size:12px;min-height:50px;padding:0 24px}
+ .world-inspect,.world-boundary{bottom:218px}.world-help{top:auto;bottom:126px;max-height:calc(100svh - 215px);width:88vw}
+ .world-footnote{bottom:19px;font-size:10px}.world-entered .world-selected-verse{top:149px}
+}
+@media(max-width:420px){.world-bottom-right{position:relative;gap:0}.world-bottom .world-help-button{position:absolute;right:0;bottom:calc(100% + 8px);min-width:68px}.world-bottom>button{padding:9px;gap:7px}.world-bottom .world-view-trigger{font-size:9px;padding:8px;gap:5px}.world-tools{gap:7px;bottom:174px}.world-tools .world-read{padding:0 9px}.world-control-label{font-size:8px}}
+@media(max-width:420px){.world-help,.world-popover{bottom:176px;max-height:calc(100svh - 265px)}}
+@media(prefers-reduced-motion:reduce){.world-popover{scroll-behavior:auto}}
+
+/* One inscriptional voice across the world controls. */
+.world-weather,.world-weather select,.world-footnote{font-family:var(--font-literary);font-weight:400;letter-spacing:.015em}
+.world-weather select{max-width:175px;font-size:11px}
+.world-footnote{line-height:1.7;font-size:10px}
+@media(max-width:700px){.world-weather select{font-size:9px;max-width:132px}.world-footnote{font-size:9px;max-width:88vw}.world-footnote>span:first-child{max-width:100%}}

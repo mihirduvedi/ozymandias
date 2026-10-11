@@ -1,0 +1,114 @@
+{
+  "scope": "Current Ozymandias runtime assets. Anatomical mesh derivatives are CC0; Ramesses portrait is CC BY 4.0; fonts are OFL. Historical unused bust is listed separately in manifest.json.",
+  "files": [
+    {
+      "file": "sand/color.jpg",
+      "bytes": 703132,
+      "sha256": "e72144f9d7b81bdb7bbdb34222b53431738dcef79346dd89412d2abd541e4d30",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/sand_03"
+    },
+    {
+      "file": "sand/normal.jpg",
+      "bytes": 884706,
+      "sha256": "1bde5f49ea78f94bcad73592696bf3949711c4ac197133b710c0c8521b6e996b",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/sand_03"
+    },
+    {
+      "file": "sand/roughness.jpg",
+      "bytes": 291218,
+      "sha256": "5c9ead290a94913cfa2d0452a576ba527b50301fe208f2ffc4861e42a8fea45b",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/sand_03"
+    },
+    {
+      "file": "stone/color.jpg",
+      "bytes": 859211,
+      "sha256": "20f653a42fb24f42aa40641663070d578678da49af18cc1049dbdd4ed8679f3c",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/rock_boulder_dry"
+    },
+    {
+      "file": "stone/normal.jpg",
+      "bytes": 802497,
+      "sha256": "5915fea28a97357c78a04fb31c2516f1f7ed1b3a9cef4ae25aa93e4655e6c595",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/rock_boulder_dry"
+    },
+    {
+      "file": "stone/roughness.jpg",
+      "bytes": 668127,
+      "sha256": "cc5229dd6bbdc4e817cb647e60242224b8e4f0237473ac018861ea243f2e8130",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/rock_boulder_dry"
+    },
+    {
+      "file": "ramesses/head.stl",
+      "bytes": 7090284,
+      "sha256": "fb80d067ec16fa81f6886a89d6f555ff9b4be2c22d94b2c4761a8f7d94b727de",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Colossal_sculpture_of_Ramesses_II.stl"
+    },
+    {
+      "file": "ramesses/provenance.json",
+      "bytes": 1841,
+      "sha256": "0c0412e3ae369f2d0977ec8221c727f5b2eed93b9e9d4e5bb699e56dcaca70c8",
+      "license": "Attribution metadata",
+      "source": "https://commons.wikimedia.org/wiki/File:Colossal_sculpture_of_Ramesses_II.stl"
+    },
+    {
+      "file": "fonts/cinzel-inscription.json",
+      "bytes": 48504,
+      "sha256": "9eb63b00caa05f902137a5a767076f445672b147b786fbdaaaf18e0b170b139d",
+      "license": "SIL OFL 1.1",
+      "source": "https://fontsource.org/fonts/cinzel/about"
+    },
+    {
+      "file": "fonts/Cinzel-OFL.txt",
+      "bytes": 4382,
+      "sha256": "f5a242cf68ad6ebd0603b3359a74c593ca080318a681035be5296ba2c6b04ae6",
+      "license": "SIL OFL 1.1",
+      "source": "https://github.com/NDISCOVER/Cinzel"
+    },
+    {
+      "file": "anatomy/left-leg.stl",
+      "license": "CC0 1.0 Universal",
+      "source": "https://github.com/makehumancommunity/makehuman/tree/a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+      "bytes": 3857784,
+      "sha256": "b6dbaf90512937cb1488e027be0c931ed054ffef43fa8ceadfcbb01d114f8724"
+    },
+    {
+      "file": "anatomy/right-leg.stl",
+      "license": "CC0 1.0 Universal",
+      "source": "https://github.com/makehumancommunity/makehuman/tree/a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+      "bytes": 4274784,
+      "sha256": "a9d5dcd36ffaaa344fe43f2d2bd552c0b89566ef844661bf96af8c8f58777796"
+    },
+    {
+      "file": "anatomy/hand.stl",
+      "license": "CC0 1.0 Universal",
+      "source": "https://github.com/makehumancommunity/makehuman/tree/a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+      "bytes": 3147184,
+      "sha256": "827961dda090ed111b1d6bbf02704b2a485e02a07096fa207e479e44228f09a2"
+    },
+    {
+      "file": "anatomy/provenance.json",
+      "license": "CC0 1.0 Universal",
+      "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+      "bytes": 3192,
+      "sha256": "332842e0705cb947a5d1e2472c4d7bb1264b7f25e4e546e87965dc2ef72fac5d"
+    },
+    {
+      "file": "anatomy/LICENSE.CC0.txt",
+      "license": "CC0 1.0 Universal",
+      "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    }
+  ],
+  "fonts": {
+    "display": "@fontsource/cinzel 5.3.0 Latin 400, Natanael Gama, OFL 1.1",
+    "engraving": "Latin 600 outlines converted into Three Font JSON; same OFL, license bundled"
+  }
+}

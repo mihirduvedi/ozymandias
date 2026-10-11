@@ -1,0 +1,96 @@
+{
+  "source": "MakeHuman Community authored human base and adult male targets",
+  "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "url": "https://github.com/makehumancommunity/makehuman/tree/a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+  "modifications": "Adult male asset targets; two Catmull-Clark subdivision levels; separate leg and hand crops; concave caps with conforming edge subdivision and coherent irregular fracture relief; vertical ankle-knee-thigh alignment; broader shaft and thigh anatomy; flat plantar bearing pads with preserved foot arches and individual toes; localized mineral pits, spalls and fine incised fissures; object-local dark fracture shading at runtime; hand resting orientation computed from convex support hull and center of mass. No MakeHuman application code is included.",
+  "sources": [
+    {
+      "file": "base.obj",
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c"
+    },
+    {
+      "file": "african-male-young.target",
+      "sha256": "894abc1fbb3d28543a51fef16f89d5d4bdf9aa2e1534413339811a3d47818b7d"
+    },
+    {
+      "file": "universal-male-young-maxmuscle-averageweight.target",
+      "sha256": "c171ff9cc95e96273beb3e3b1969a01988c2d4982ebc6fe04bf81cf72ee3b295"
+    }
+  ],
+  "assets": [
+    {
+      "file": "/world/anatomy/left-leg.stl",
+      "triangles": 77154,
+      "bounds": [
+        [
+          -1.1673074202093274,
+          0.0,
+          -0.8428906250535295
+        ],
+        [
+          1.2067888412953802,
+          8.572008989858846,
+          1.9982938125000003
+        ]
+      ],
+      "centerMass": [
+        0.03470951703884832,
+        5.528796225494868,
+        0.15245739018545754
+      ],
+      "volume": 12.023354819453886,
+      "watertight": true,
+      "sha256": "b6dbaf90512937cb1488e027be0c931ed054ffef43fa8ceadfcbb01d114f8724"
+    },
+    {
+      "file": "/world/anatomy/right-leg.stl",
+      "triangles": 85494,
+      "bounds": [
+        [
+          -0.9396379325102588,
+          0.0,
+          -0.8464035681641691
+        ],
+        [
+          0.9037544828825484,
+          7.057802613031402,
+          1.9982938125000003
+        ]
+      ],
+      "centerMass": [
+        -0.02110518614953358,
+        3.9743864253416277,
+        0.04030412108456192
+      ],
+      "volume": 6.882832157726999,
+      "watertight": true,
+      "sha256": "a9d5dcd36ffaaa344fe43f2d2bd552c0b89566ef844661bf96af8c8f58777796"
+    },
+    {
+      "file": "/world/anatomy/hand.stl",
+      "triangles": 62942,
+      "bounds": [
+        [
+          -1.1602831848419835,
+          -0.43807481655852215,
+          -2.1685367389303956
+        ],
+        [
+          1.1602831848419835,
+          0.43807481655852215,
+          2.1685367389303956
+        ]
+      ],
+      "centerMass": [
+        -0.13758210087751738,
+        -0.06175905774715313,
+        0.07812207396106302
+      ],
+      "volume": 1.6276735862482143,
+      "watertight": true,
+      "sha256": "827961dda090ed111b1d6bbf02704b2a485e02a07096fa207e479e44228f09a2"
+    }
+  ]
+}

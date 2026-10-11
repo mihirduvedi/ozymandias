@@ -1,0 +1,58 @@
+{
+  "title": "Colossal sculpture of Ramesses II, Memphis",
+  "creator": "Daniel Pett (Dejp3)",
+  "source": "https://commons.wikimedia.org/wiki/File:Colossal_sculpture_of_Ramesses_II.stl",
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Colossal_sculpture_of_Ramesses_II.stl",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "originalSha256": "5b90fd731fe8bddf47700361e25b72be513d30d93c56aef5fbbe56606c2d6baa",
+  "derivedFile": "ramesses/head.stl",
+  "derivedSha256": "fb80d067ec16fa81f6886a89d6f555ff9b4be2c22d94b2c4761a8f7d94b727de",
+  "bytes": 7090284,
+  "triangles": 141804,
+  "originalTriangles": 500586,
+  "cutPlanes": [
+    [
+      1,
+      7.0,
+      1
+    ],
+    [
+      1,
+      14.0,
+      -1
+    ],
+    [
+      2,
+      -11.7,
+      1
+    ],
+    [
+      0,
+      -24,
+      1
+    ],
+    [
+      0,
+      -10,
+      -1
+    ]
+  ],
+  "originalCropBounds": {
+    "min": [
+      -23.612003510163827,
+      6.60471407662082,
+      -11.925711431506564
+    ],
+    "max": [
+      -12.289555871393427,
+      14.374514101956974,
+      -4.436567783355713
+    ]
+  },
+  "modifications": "Removed tall crown and rear slab. Sequential plane clipping with concave Earcut caps, conforming edge refinement and irregular relief on the forehead, neck and rear break surfaces; welded boundaries and repaired outward winding. Runtime deformation lowers mouth corners and inner brows, compresses the lower lip, adds lip wrinkles, a glabellar furrow, nasolabial creases and an asymmetric sneer. Dark object-local branching cracks cross broken outer surfaces. Runtime scaling, burial and cool mineral stone are literary interpretation, not historical reconstruction. The scan remains closed.",
+  "watertight": true,
+  "windingConsistent": true,
+  "boundaryEdges": 0,
+  "nonManifoldEdges": 0
+}

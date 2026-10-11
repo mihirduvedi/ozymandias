@@ -1,0 +1,97 @@
+{
+  "license": "CC0",
+  "provider": "Poly Haven",
+  "assets": [
+    {
+      "id": "marble_bust_01",
+      "author": "Rico Cilliers"
+    },
+    {
+      "id": "sand_03",
+      "author": "Charlotte Baglioni"
+    },
+    {
+      "id": "rock_boulder_dry",
+      "author": "Dimitrios Savva (photography), Rico Cilliers (processing)"
+    }
+  ],
+  "files": [
+    {
+      "file": "bust/marble_bust_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/marble_bust_01/marble_bust_01_1k.gltf",
+      "bytes": 2793,
+      "sha256": "b6f192fc01be4349470b66f6f6948bd37620267bdbc86f4568e4d078f97ff09b",
+      "md5": "599d6dd71c2dcdffa064b1c1d85882f4"
+    },
+    {
+      "file": "bust/marble_bust_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/marble_bust_01/marble_bust_01.bin",
+      "bytes": 416608,
+      "sha256": "0bb757c1bd00bfe42005c84e7f76df98ce04a532e595a2ddda8a0335cd959e33",
+      "md5": "1c62c1189a0e8985618c1662e1bd25a3"
+    },
+    {
+      "file": "bust/textures/marble_bust_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/marble_bust_01/marble_bust_01_nor_gl_1k.jpg",
+      "bytes": 124627,
+      "sha256": "3d355904cd54c2de90d5d4310b80d43816fa2dd509f0a3445d654eab8e237c5f",
+      "md5": "134149a7e8f142fcb605f0bde52b3ff6"
+    },
+    {
+      "file": "bust/textures/marble_bust_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/marble_bust_01/marble_bust_01_diff_1k.jpg",
+      "bytes": 160337,
+      "sha256": "cbb7dccdc62d7eaa240eef7b4956969bf6e73c7338b64f1378629838ea22383c",
+      "md5": "aede40cc2b092d91a5f72598c911da4f"
+    },
+    {
+      "file": "bust/textures/marble_bust_01_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/marble_bust_01/marble_bust_01_rough_1k.jpg",
+      "bytes": 193918,
+      "sha256": "1c4502352dc936dd1f1c1a81b418706df1ce0445949874215015325f9b8921fb",
+      "md5": "9fdff7b2b17d12fcc478de3021f561dd"
+    },
+    {
+      "file": "sand/color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_03/sand_03_diff_1k.jpg",
+      "bytes": 703132,
+      "sha256": "e72144f9d7b81bdb7bbdb34222b53431738dcef79346dd89412d2abd541e4d30",
+      "md5": "84bde2b8bea6351805f67a15682b36b2"
+    },
+    {
+      "file": "sand/normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_03/sand_03_nor_gl_1k.jpg",
+      "bytes": 884706,
+      "sha256": "1bde5f49ea78f94bcad73592696bf3949711c4ac197133b710c0c8521b6e996b",
+      "md5": "ad8d6ce28344b1d8f241cbd7796243dc"
+    },
+    {
+      "file": "sand/roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_03/sand_03_rough_1k.jpg",
+      "bytes": 291218,
+      "sha256": "5c9ead290a94913cfa2d0452a576ba527b50301fe208f2ffc4861e42a8fea45b",
+      "md5": "b09beddb9981ec5fb402c12f04751c15"
+    },
+    {
+      "file": "stone/color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_diff_1k.jpg",
+      "bytes": 859211,
+      "sha256": "20f653a42fb24f42aa40641663070d578678da49af18cc1049dbdd4ed8679f3c",
+      "md5": "da794cd9be3db91e3160cf081109f322"
+    },
+    {
+      "file": "stone/normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_nor_gl_1k.jpg",
+      "bytes": 802497,
+      "sha256": "5915fea28a97357c78a04fb31c2516f1f7ed1b3a9cef4ae25aa93e4655e6c595",
+      "md5": "6f1c575ceed560ae253f65518cf748e2"
+    },
+    {
+      "file": "stone/roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_boulder_dry/rock_boulder_dry_rough_1k.jpg",
+      "bytes": 668127,
+      "sha256": "cc5229dd6bbdc4e817cb647e60242224b8e4f0237473ac018861ea243f2e8130",
+      "md5": "0c8b15df3e31c15256da5f8e1b0d0759"
+    }
+  ]
+}

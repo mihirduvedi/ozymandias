@@ -1,0 +1,90 @@
+{
+  "scene": "The Second Coming literary vision",
+  "anatomy_source": "https://github.com/makehumancommunity/makehuman/tree/a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "anatomy_license": "CC0 1.0 Universal",
+  "assets": [
+    {
+      "asset": "lion-body",
+      "triangles": 96128,
+      "vertices": 48066,
+      "watertight": true,
+      "bounds": [
+        [
+          -2.2226333618164062,
+          -0.020000000000000004,
+          -5.1797099113464355
+        ],
+        [
+          2.222108840942383,
+          8.0659818649292,
+          5.645745277404785
+        ]
+      ],
+      "bytes": 4806484,
+      "sha256": "d6c8ccd159b04b71ee5e0b3ec9ad41787efd3e08f38e7c67ca307a19074b2578"
+    },
+    {
+      "asset": "human-head",
+      "triangles": 134422,
+      "vertices": 67213,
+      "watertight": true,
+      "bounds": [
+        [
+          -1.8929594574655313,
+          0.0,
+          -2.5189065150262393
+        ],
+        [
+          1.8929594574655313,
+          5.4,
+          2.5189065150262393
+        ]
+      ],
+      "bytes": 6721184,
+      "sha256": "44c244f48b8f72aa553713aedd4f6b8663ac400330a969660e7151540df85410"
+    },
+    {
+      "asset": "falconer.glb",
+      "source": "Existing MakeHuman Community CC0 adult anatomy",
+      "modifications": "Two Catmull-Clark subdivisions; blended arm posing, clothing/skin/boot vertex colors, 1.88m standing height, flat ground contact",
+      "triangles": 428096,
+      "bounds": [
+        [
+          -0.4211064575941769,
+          0.0,
+          -0.09425140726390059
+        ],
+        [
+          0.733289418624165,
+          1.8699285304109587,
+          0.42185644557379376
+        ]
+      ],
+      "glove_center": [
+        0.6967873006729896,
+        1.7855401151936185,
+        0.3412602584348814
+      ],
+      "sha256": "63a009fd0930b55801fdf0066e2fdb16fccd1a57026736bdb4e858cb8168b5ab"
+    },
+    {
+      "file": "public/world/vision/human-portrait.glb",
+      "bytes": 6204372,
+      "sha256": "b23d340aba5815f66dc22a7830ff2abbf8ab7d9de3237386f466e806b866191d",
+      "triangles": 134422,
+      "skinSource": "MakeHuman bundled middleage_african_male diffuse",
+      "sourceCommit": "8cf9645b975a98eea056b140df11a1d278da0d10",
+      "sourceMirror": "https://github.com/s20220526/makehuman-assets",
+      "license": "CC0 1.0 Universal",
+      "mapping": "Closest authored triangle UV transfer after the existing two-level subdivision and closed head crop",
+      "projectionDistanceMax": 0.08833522098727495,
+      "projectionDistanceMedian": 0.002111632286077597,
+      "asset": "human-portrait.glb",
+      "sourceAuthor": "MakeHuman asset authors: Data Collection AB, Joel Palmius and Jonas Hauquier"
+    }
+  ],
+  "body_derivation": "Original continuous anatomical field: level feline spine, scapulae, ribcage, abdominal tuck, forward knees and rear hocks, four pads and individual toes. Matte triplanar short coat and surface-rooted combed neck fibres. Not a scanned or AI-image asset.",
+  "portrait_derivation": "Cropped MakeHuman adult male anatomy, two subdivision passes, closed neck plane; authored diffuse skin texture transferred from the original UV triangles. Blank expression retained.",
+  "authoring": "scripts/prepare-beast.py, scripts/prepare-falconer.py; reviewed local MakeHuman body.npz; native birds, fur/mane, moor, coast and arch in src/world.",
+  "interpretation": "A connected literary interpretation: storm coast, broken court and tide, then the poem's desert vision and a masonry threshold. Original kinematic four-beat gait and banked/flapping bird flight, not a full physical simulation or archaeological reconstruction."
+}
