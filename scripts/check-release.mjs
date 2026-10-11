@@ -29,7 +29,8 @@ for (const name of ['refinement-manifest.json', 'manifest.json']) {
 for (const file of ['public/world/audio/quiet-desert-air.mp3', 'public/world/audio/CREDITS.md',
   'public/world/fonts/EB-Garamond-OFL.txt', 'public/world/fonts/Cinzel-OFL.txt',
   'public/world/anatomy/LICENSE.CC0.txt', 'public/world/ramesses/provenance.json',
-  'LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/submission/DEVPOST.md', 'docs/submission/REQUIREMENTS.md']) requireFile(file);
+  'LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/submission/DEVPOST.md', 'docs/submission/REQUIREMENTS.md',
+  'public/watch.html', 'docs/submission/tour-highlights.mp4', 'docs/submission/images/public-demo.png']) requireFile(file);
 
 for (const file of ['src/world/engine.ts', 'src/world/sculpture.ts', 'src/world/vision.ts',
   'src/world/vision-craft.ts', 'src/world/ambience.ts']) {

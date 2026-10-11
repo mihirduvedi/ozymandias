@@ -11,7 +11,7 @@ reading through the ruin or find your own way around it.
 
 ![The ruined colossus and the open desert](docs/submission/images/thumbnail.png)
 
-[Watch the tour highlights](docs/submission/tour-highlights.mp4)
+[Watch the tour highlights](https://mihirduvedi.github.io/ozymandias/watch.html)
 
 ## Read it your way
 

@@ -42,5 +42,9 @@ contexts are listed in [images/README.md](images/README.md). Earlier responsive
 checks are described in [the QA notes](../QA.md), with their device and
 accessibility testing limits.
 
+The video has a [dedicated player](https://mihirduvedi.github.io/ozymandias/watch.html)
+on GitHub Pages. The build bundles its MP4, poster, and font with the site, so
+watching it does not depend on GitHub's source-file preview.
+
 Publishing the repository and demo does not submit the project to Devpost.
 The final event form and submission status are separate checks.

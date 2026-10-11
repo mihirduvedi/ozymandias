@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172b35" />
+    <meta name="description" content="Watch a short recording of Ozymandias, an interactive poem set in a ruined desert kingdom." />
+    <title>Ozymandias: Tour highlights</title>
+    <link rel="icon" href="./favicon.svg" />
+    <style>
+      @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; font-display: swap; src: url("./media/eb-garamond.woff2") format("woff2"); }
+      :root { color-scheme: dark; font-family: "EB Garamond", Garamond, serif; color: #f2e7cf; background: #172b35; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100svh; background: linear-gradient(165deg, #243d47, #172b35 55%, #152831); }
+      a { color: inherit; text-underline-offset: 0.25em; }
+      a:focus-visible, video:focus-visible { outline: 2px solid #e2c68e; outline-offset: 5px; }
+      header, main, footer { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+      header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 26px 0; border-bottom: 1px solid #aa906247; }
+      .wordmark { font-variant: small-caps; font-size: 27px; text-decoration: none; }
+      .return { font-size: 19px; }
+      main { padding: 30px 0 24px; }
+      h1 { margin: 0 0 8px; font-size: clamp(30px, 4vw, 43px); font-weight: 400; }
+      .intro { margin: 0 0 23px; color: #d5cbb7; font-size: 20px; line-height: 1.4; }
+      video { display: block; width: min(100%, max(280px, calc(177.78svh - 440px))); margin: 0 auto; aspect-ratio: 16 / 9; background: #0e1c22; border: 1px solid #aa906274; }
+      .details { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 18px; font-size: 19px; }
+      .details p { margin: 0; color: #d5cbb7; }
+      footer { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; padding: 18px 0 30px; border-top: 1px solid #aa906247; color: #c6bba5; font-size: 18px; }
+      @media (max-width: 600px) { header, main, footer { width: calc(100% - 32px); } header { padding: 19px 0; } .wordmark { font-size: 24px; } .return { font-size: 17px; } main { padding-top: 24px; } .intro { font-size: 19px; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="wordmark" href="./">Ozymandias</a>
+      <a class="return" href="./">Enter the world</a>
+    </header>
+    <main>
+      <h1>Tour highlights</h1>
+      <p class="intro">A short look inside the poem, from the traveler's arrival to the lone and level sands.</p>
+      <video controls playsinline preload="metadata" poster="./media/tour-poster.png" aria-label="Ozymandias tour highlights">
+        <source src="./media/tour-highlights.mp4" type="video/mp4" />
+        Your browser couldn't open the video. <a href="./media/tour-highlights.mp4">Download it here.</a>
+      </video>
+      <div class="details">
+        <p>70 seconds. A silent recording of the live experience.</p>
+        <a href="./media/tour-highlights.mp4" download="ozymandias-tour-highlights.mp4">Download the video</a>
+      </div>
+    </main>
+    <footer>
+      <span>Percy Bysshe Shelley, 1818</span>
+      <a href="./#/ozymandias/plain">Read the complete poem</a>
+      <a href="https://github.com/mihirduvedi/ozymandias">Source and credits</a>
+    </footer>
+  </body>
+</html>

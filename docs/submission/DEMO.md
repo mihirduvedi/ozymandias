@@ -6,11 +6,16 @@ sound off unless the recording can capture it clearly.
 
 ## Prepared video
 
-[Tour highlights](tour-highlights.mp4) is a 70-second silent screen recording of
+[Watch the tour highlights](https://mihirduvedi.github.io/ozymandias/watch.html)
+in the browser. The video is a 70-second silent screen recording of
 the public app at 1280 × 720 and 30 frames per second. It follows the arrival,
 fallen face, inscription, and final panorama. Two short fades join selected
 passages of the real tour. It is an edited introduction, rather than a recording
 of every line. The full guided reading is available in the live app.
+
+Use the player page above to watch it. GitHub's source viewer may show a file-size
+notice instead of playing the MP4. A [direct download](https://mihirduvedi.github.io/ozymandias/media/tour-highlights.mp4)
+is also available.
 
 The file is ready to upload if the submission form asks for a video. If Devpost
 requires a YouTube or Vimeo URL, this MP4 must be uploaded to one of those hosts
