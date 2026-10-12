@@ -17,9 +17,10 @@ Use the player page above to watch it. GitHub's source viewer may show a file-si
 notice instead of playing the MP4. A [direct download](https://mihirduvedi.github.io/ozymandias/media/tour-highlights.mp4)
 is also available.
 
-The file is ready to upload if the submission form asks for a video. If Devpost
-requires a YouTube or Vimeo URL, this MP4 must be uploaded to one of those hosts
-first. A repository file link does not establish that an embed was accepted.
+The [YouTube demo](https://youtu.be/jFqw_-LH898) is published as unlisted on the
+existing Mihir channel. Use that URL in the Video demo link field. The video has
+been checked in an embedded player. The Pages preview and MP4 remain available
+for viewing and downloading outside Devpost.
 
 ## Suggested walkthrough
 

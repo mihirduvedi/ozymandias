@@ -13,6 +13,8 @@ reading through the ruin or find your own way around it.
 
 [Watch the tour highlights](https://mihirduvedi.github.io/ozymandias/watch.html)
 
+[YouTube demo for the submission](https://youtu.be/jFqw_-LH898)
+
 ## Read it your way
 
 Choose **Enter the poem** to follow all fourteen lines automatically. The camera

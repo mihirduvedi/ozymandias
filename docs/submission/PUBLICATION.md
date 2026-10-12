@@ -46,5 +46,11 @@ The video has a [dedicated player](https://mihirduvedi.github.io/ozymandias/watc
 on GitHub Pages. The build bundles its MP4, poster, and font with the site, so
 watching it does not depend on GitHub's source-file preview.
 
+The [YouTube demo](https://youtu.be/jFqw_-LH898) was uploaded to the existing
+Mihir channel. YouTube Studio confirmed Unlisted visibility and completed its
+initial checks without a reported issue. Playback was also checked in a real
+iframe on a local page. The link is ready for the Devpost video field, whose
+saved preview remains a separate check.
+
 Publishing the repository and demo does not submit the project to Devpost.
 The final event form and submission status are separate checks.

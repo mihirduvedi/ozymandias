@@ -47,7 +47,7 @@ certification, physical-device coverage, or an originality guarantee.
 
 ## Submission materials
 
-The [project story](DEVPOST.md) is ready to copy into the Devpost description.
+The [project story](PROJECT_STORY.md) is ready to copy into the Devpost description.
 The repository README, credits, license, design notes, controls, and verification
 notes are included. The images folder contains real screenshots of the app.
 A walkthrough and a 70-second video are provided in [DEMO.md](DEMO.md). The
@@ -58,19 +58,32 @@ lists a project name, tagline, story, technology tags, media, and links. Its
 recommended gallery thumbnail is 3:2 and no larger than 5 MB. Individual
 hackathons can add required fields, including a video or repository link.
 
-The signed-in event form still needs a final field check. A hosted video and
-any custom questions remain unverified. The public rules do not specify a video
-length. The prepared MP4 and walkthrough do not establish that a required video
-has been uploaded or accepted by Devpost.
+The General info and Project details fields have been reviewed from the current
+form supplied by the entrant:
+
+- Project name: required, up to 60 characters. Ozymandias uses 10.
+- Elevator pitch: required, up to 200 characters. The prepared pitch uses 148.
+- About the project: required, with Markdown support. The story covers inspiration,
+  construction, challenges, and lessons learned.
+- Built with: required, with up to 25 tags. The prepared list contains 12.
+- Try it out links: the live experience, source, and browser video preview are provided.
+- Image gallery: up to 15 JPG, PNG, or GIF files, each below 5 MB, with 3:2 recommended.
+  Four JPG screenshots are prepared in the gallery folder.
+- Video demo link: this event's form accepts YouTube or Vimeo. The
+  [unlisted YouTube video](https://youtu.be/jFqw_-LH898) is uploaded and its embed
+  has been tested. The provided field does not display a required marker.
+
+The public rules do not specify a video length. Any later event-specific
+questions and the final submission screen still need review. Testing the video
+embed does not confirm that its URL has been saved in the Devpost draft.
 
 ## Before submitting
 
 - Confirm student eligibility, age and residence requirements, and the team.
-- Review the signed-in event form and answer any custom questions.
+- Review any remaining form sections and answer any custom questions.
 - Add the public demo and repository links, the project story, technology tags,
   thumbnail, and screenshots.
-- If the form requires a video, provide a public YouTube or Vimeo link that meets
-  its stated length limit. Use the real app rather than a simulated interaction.
+- Add the unlisted YouTube URL in the Video demo link field and check its preview.
 - Review the project's source and asset attribution in the final entry.
 - Complete Devpost's final submission step before the deadline and confirm the
   project is marked Submitted.
